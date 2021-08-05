@@ -8,7 +8,7 @@ using namespace std;
 struct Person
 {
     string name; // 姓名
-    int sex = 0; // 性別 女 0 男 1
+    int sex = 0; // 性別 女 0 男 1　其他 2
     short age = 18; // 年齡
     string phone; // 電話號碼
 };
@@ -31,9 +31,9 @@ void showMenu()
     cout << "*****   5. 編輯聯絡人   *****" << endl;
     cout << "*****   6. 清空聯絡人   *****" << endl;
     cout << "*****   0. 退出系統　   *****" << endl;
-    cout << "*****************************" << endl << endl;
+    cout << "*****************************" << endl;
 
-    cout << "請輸入編號（0 ~ 6）使用功能：" << endl;
+    cout << endl << "請輸入編號（0 ~ 6）使用功能：" << endl;
 }
 
 // 新增聯絡人
